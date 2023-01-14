@@ -1,0 +1,23 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+Encyclopedia
+{% endblock %}
+
+{% block body %}
+<h1>New Page</h1>
+
+<form action="{% url 'newpage' %}" method="post">
+    {% csrf_token %}
+    <title>Enter Title</title>
+    <input type="text" name="title" placeholder="Enter title">
+    <br>
+    <p><label>TextArea:</label></p>
+    <textarea name="textarea" rows="4" cols="50"></textarea>
+    <br>
+    <input type="submit" value="Submit">
+</form>
+
+{% endblock %}
+
+<!-- get and post method in django -->
