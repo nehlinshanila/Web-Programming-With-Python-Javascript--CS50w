@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header #links {
+    margin-right: 30px;
+    display: flex;
+}
+
+.header #links a {
+    margin-left: 30px;
+    font-size: small;
+    color: black;
+    text-decoration: none;
+}
+
+.header #links a:hover {
+    border-bottom: 1px solid black;
+}
+
+#middle {
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#middle #enter {
+    border: 1px solid lightblue;
+    height: 13px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 580px;
+}
+
+#middle #enter #i {
+    color: lightgray;
+}
+
+#middle #enter:hover {
+    box-shadow: grey;
+}
+
+#middle #enter input {
+    width: 100%;
+    border: none;
+    box-shadow: none !important;
+    outline: none !important;
+    margin-left: 7px;
+    font-size: 16px;
+}
+
+#middle #button {
+    display: flex;
+    justify-content: center;
+}
+
+#middle #button input {
+    background-color: lightblue;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 20px 5px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+#middletwo {
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#middletwo #enter {
+    border: 1px solid lightblue;
+    height: 13px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 580px;
+}
+
+#middletwo #enter #i {
+    color: lightgray;
+}
+
+#middletwo #enter:hover {
+    box-shadow: grey;
+}
+
+#middletwo #enter input {
+    width: 100%;
+    border: none;
+    box-shadow: none !important;
+    outline: none !important;
+    margin-left: 7px;
+    font-size: 16px;
+}
+
+#middletwo #button {
+    display: flex;
+    justify-content: center;
+}
+
+#middletwo #button input {
+    background-color: lightblue;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 20px 5px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.adheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: small;
+}
+
+.tinygoogleimg {
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.tinygoogleimg img {
+    width: 70px;
+    height: auto;
+}
+
+
+.ad2header {
+    color: red;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 35px;
+    margin-top: 15px;
+    font-weight: normal;
+}
+
+.enterone .textdesheading {
+    font-size: 16px;
+    min-width: 165px;
+    width: 16%;
+    font-weight: 500;
+    color: rgb(29, 29, 29);
+}
+
+.enterone {
+    display: flex;
+    align-items: center;
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
+
+.enterone .textdes {
+    width: 200px;
+    font-size: 13px;
+}
+
+.enterone .enternow {
+    min-width: 165px;
+    width: 50%;
+}
+
+.enterone .enternow input {
+    border-radius: 1px;
+    border: 1px solid lightblue;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    width: 100%;
+}
+
+.enterone .Todo {
+    width: 32%;
+    min-width: 16px;
+    color: grey;
+    font-size: 11px;
+    padding-left: 30px;
+}
+
+span {
+    color: grey;
+    font-family: monospace;
+    font-size: 11px;
+    white-space: pre;
+    font: bold;
+}
+
+.enterone .button {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button input {
+    background-color: #0066ff;
+    background-image: -webkit-linear-gradient(top, #0066ff, #014ab8);
+    color: azure;
+    height: 30px;
+    min-width: 120px;
+    border: 1px solid #0066ff;
+    border-radius: 2px;
+    font-size: 11px;
+    font-weight: bold;
+}
